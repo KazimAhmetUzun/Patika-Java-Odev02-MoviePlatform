@@ -91,7 +91,7 @@ public class MoviePlatform {
 
         System.out.print("Görmek istediğiniz kategorinin numarasını girin: ");
         int selectedCategoryNumber = scanner.nextInt();
-        scanner.nextLine(); // Boş satırı oku
+        scanner.nextLine(); 
 
         String selectedCategory = categoryNumbers.get(selectedCategoryNumber);
         if (selectedCategory != null) {
